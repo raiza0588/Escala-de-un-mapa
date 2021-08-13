@@ -13,12 +13,14 @@ by Raiza(rafaalonso0110@gmail.com) 12/08/2021
 """
 from formula import *
 print("Determina la escala de un mapa")
+print("******************************")
 opcion = 1
 while opcion != 0:
     print("1: Conocer la escala de un mapa")
     print("2: Conocer la distancia gráfica")
     print("3: Conocer la distancia real")
     print("0: Salir del programa")
+    print("***************************")
     print("")
     opcion = input("Selecciona la opción de deseas calcular: ")
     if opcion == "1":
